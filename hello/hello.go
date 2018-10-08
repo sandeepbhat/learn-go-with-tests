@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package hello
 
 // Hello  Return a string with given name appended.
 // name (string): Name to be appended after "Hello".
@@ -9,8 +7,4 @@ func Hello(name string) string {
 		name = "World"
 	}
 	return "Hello, " + name
-}
-
-func main() {
-	fmt.Println(Hello("Misty Mountain"))
 }
